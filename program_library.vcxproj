@@ -128,10 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="washingMachine.cpp" />
+    <ClCompile Include="Iron.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="washingMachine.h" />
+    <ClInclude Include="Iron.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

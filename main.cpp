@@ -1,19 +1,18 @@
 #include <iostream>
-#include "WashingMachine.h"
+#include "Iron.h"
 
 using namespace std;
 
 int main() {
-    WashingMachine machine("Samsung", "White", 60.0, 80.0, 100.0, 1500, 1200, 60);
+    Iron iron("Philips", "PowerLife", "Blue", 100, 200, true, 2400);
 
-    cout << "Washing Machine Information:" << endl;
-    cout << "Company: " << machine.getCompany() << endl;
-    cout << "Color: " << machine.getColor() << endl;
-    cout << "Dimensions (WxLxH): " << machine.getWidth() << "x" << machine.getLength() << "x" << machine.getHeight() << " cm" << std::endl;
-    cout << "Power: " << machine.getPower() << " W" << endl;
-    cout << "Spin Speed: " << machine.getSpinSpeed() << " rpm" << endl;
-    cout << "Heating Temperature: " << machine.getHeatingTemperature() << " °C" << endl;
+    cout << "Iron Information:" << endl;
+    cout << "Company: " << iron.getCompany() << endl;
+    cout << "Model: " << iron.getModel() << endl;
+    cout << "Color: " << iron.getColor() << endl;
+    cout << "Temperature Range: " << iron.getMinTemperature() << "°C - " << iron.getMaxTemperature() << "°C" << endl;
+    cout << "Steam Feature: " << (iron.hasSteamFeature() ? "Yes" : "No") << endl;
+    cout << "Power: " << iron.getPower() << " W" << :endl;
 
-	system("pause");
     return 0;
 }
