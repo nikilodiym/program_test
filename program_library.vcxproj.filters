@@ -9,12 +9,12 @@
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
-    <ClCompile Include="Boiler.cpp">
+    <ClCompile Include="Animal.cpp">
       <Filter>main</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Boiler.h">
+    <ClInclude Include="Animal.h">
       <Filter>main</Filter>
     </ClInclude>
   </ItemGroup>
